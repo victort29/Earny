@@ -1,10 +1,16 @@
-<div class="container-fluid">
-  <div class="row ms-auto">
-    <p>logo</p>
-  </div>
-  <div class="row text-center">
-      <div class="border ">
-        this is the chat
+<div class="row container justify-content-center">
+  <div class="card p-3 m-5">
+    <div class="card-header">
+      <h4 class="card-title text-center"><strong>EARNY</strong></h4>
+    </div>
+    <div class="chat-content">
+      <div class="p-4" *ngFor="let question of questions">
+        <p>{{question.question}}</p>
+        <p class="text-end">{{question.answer}}</p>
       </div>
+    </div>
+    <div class="input-group mt-auto">
+      <input #answer type="text" class="form-control text-center" placeholder="Type your answer here" (keyup.enter)="addInput(answer.value)">
+    </div>
   </div>
 </div>
