@@ -6,9 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-questions = [
+  questions =[
+    "Hello! To provide you with the best investment advice, please tell me your age.",
+    "At what age do you expect to need money for retirement?",
+    "What is your expected net annual income?"
+  ]
+  
+responses = [
   {
-    question:"this is a question",
+    question:this.questions[0],
     answer:""
   }
 ]
@@ -19,7 +25,7 @@ currentIndex = 0
   question = "Let's start with your age"
 
   addInput(answer: string){
-    let lastquestion = this.questions[this.questions.length-1]
+    let lastquestion = this.responses[this.currentIndex]
 
     lastquestion.answer = answer
 
@@ -27,7 +33,8 @@ currentIndex = 0
   }
 
   askQuestion(){
-    this.questions.push({question:"This is a new question", answer:""})
+    this.currentIndex++;
+    this.responses.push({question:this.questions[this.currentIndex], answer:""})
   }
 }
 
