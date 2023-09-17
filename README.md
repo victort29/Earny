@@ -78,9 +78,9 @@ If you encounter any issues with Earny - Personal Financial Advisor or would lik
 
 
 # Disclaimer
-Earny - Personal Financial Advisor is intended for informational purposes only and should not be considered as financial advice. Always consult with a qualified financial advisor before making investment decisions. The developers and contributors to this project are not responsible for any financial losses incurred as a result of using this chatbot.
+Earny - Multilingual Personal Financial Advisor is intended for informational purposes only and should not be considered as financial advice. Always consult with a qualified financial advisor before making investment decisions. The developers and contributors to this project are not responsible for any financial losses incurred as a result of using this chatbot.
 
-Thank you for using Earny - Personal Financial Advisor! We hope it helps you make informed investment decisions.
+Thank you for using Earny - Multilingual Personal Financial Advisor! We hope it helps you make informed investment decisions.
 
 
 
