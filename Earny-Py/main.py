@@ -7,8 +7,8 @@ app = Flask(__name__)
 cors = CORS(app)
 
 
-openai.organization = 'org-C8NbUhxFGM6sMAMHEw8BlpN6'
-openai.api_key = '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'
+openai.organization = ORG_ID
+openai.api_key = API_KEY
 
 ENG_Q = [
     {
