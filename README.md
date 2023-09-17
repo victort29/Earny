@@ -37,7 +37,7 @@ Open the config.py file and replace YOUR_API_KEY with your actual Chat GPT API k
 
 ```
 python
-API_KEY = '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'
+API_KEY = 'YOUR_API_KEY'
 ```
 # Usage
 Run Earny - Personal Financial Advisor using the following command:
